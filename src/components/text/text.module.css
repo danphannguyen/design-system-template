@@ -1,0 +1,25 @@
+.ds-text{
+
+}
+
+/* ===== Variant ===== */
+.heading {
+    line-height: 120%;
+    letter-spacing: 2%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.subheading {
+    line-height: 120%;
+    letter-spacing: 0%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.base {
+    line-height: 140%;
+    letter-spacing: 0%;
+    font-size: 16px;
+    font-weight: 400;
+}

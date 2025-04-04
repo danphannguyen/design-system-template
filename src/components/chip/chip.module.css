@@ -7,6 +7,19 @@
     width: fit-content;
 
     color: white;
+
+    /* ===== Variant ===== */
+    &.default {
+        background-color: #2C2C2C;
+    }
+    
+    &.success {
+        background-color: #14AE5C;
+    }
+    
+    &.error {
+        background-color: #EC221F;
+    }
 }
 
 .ds-chip span {
@@ -16,18 +29,4 @@
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0%;
-}
-
-/* ===== Variant ===== */
-
-.default {
-    background-color: #2C2C2C;
-}
-
-.success {
-    background-color: #14AE5C;
-}
-
-.error {
-    background-color: #EC221F;
 }
