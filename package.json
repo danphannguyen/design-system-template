@@ -1,7 +1,7 @@
 {
-  "name": "ds-template",
-  "private": true,
-  "version": "0.0.1",
+  "name": "@danphannguyen/design-system-dpn",
+  "private": false,
+  "version": "0.0.2",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
