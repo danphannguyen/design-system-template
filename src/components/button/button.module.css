@@ -1,0 +1,34 @@
+.ds-button {
+    cursor: pointer;
+
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #2C2C2C;
+    width: fit-content;
+
+    line-height: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+
+}
+
+/* ===== Variant ===== */
+
+.default {
+    background-color: #2C2C2C;
+    color: #F5F5F5;
+
+    &:hover {
+        background-color: #1E1E1E;
+    }
+}
+
+.outlined {
+    background-color: #FFFFFF;
+    color: #2C2C2C;
+
+    &:hover {
+        background-color: #F5F5F5;
+    }
+}
