@@ -1,0 +1,33 @@
+.ds-chip {
+    display: flex;
+    gap: 8px;
+
+    padding: 8px;
+    border-radius: 8px;
+    width: fit-content;
+
+    color: white;
+}
+
+.ds-chip span {
+    font-family: Arial, Helvetica, sans-serif;
+
+    line-height: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+}
+
+/* ===== Variant ===== */
+
+.default {
+    background-color: #2C2C2C;
+}
+
+.success {
+    background-color: #14AE5C;
+}
+
+.error {
+    background-color: #EC221F;
+}
